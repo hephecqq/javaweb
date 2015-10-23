@@ -1,0 +1,9 @@
+1.通过<c:choose><c:when>和<c:otherwise>标题使用
+类似与java中的if-else语句功能
+语法规则
+1.<c:when>和<c:otherwise>标签不能单独使用，必须位于
+<c:choose>父标签中
+2.在<c:choose>标签中可以包含多个或一个<c:when>和
+<c:othewise>子标签
+3.<c:otherwise>标签必须为与<c:when>标签之后
+

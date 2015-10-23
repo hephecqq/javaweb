@@ -1,0 +1,10 @@
+<c:forTokens>标签与<c:forEach>标签类似，也有
+begin,end,step,items数组，也可以遍历items属性的hi，不同之处
+是<c:forEach>标签中的items属性值为集合或者数组而
+<c:forTokens>标签中items属性值是带分隔符的字符串，
+begin	返回forTokens标签begin属性的值
+end		返回forTokens标签end属性的值
+step	返回forTokens标签step属性的值	
+items	返回forTokens标签items属性的值
+varStatus为当前遍历对象的信息被记录在varStatus中
+通过varStatus即可获取当前被遍历对象的信息

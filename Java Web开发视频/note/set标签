@@ -1,0 +1,7 @@
+1.set标签只能设置Integer，Float和Double等数据类型
+而不能直接操作JavaBean等复杂数据类型
+
+2.target作用和var作用有些类似，唯一不同的是target只能操作JavaBean
+和Map，他们的功能更是相同的两者不能同时使用.target只接受EL表达式
+而var不能接受el表达式，通过target一般与property一起使用
+如果target为JavaBean则property为JavaBean的一个属性

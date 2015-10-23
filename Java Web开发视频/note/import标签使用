@@ -1,0 +1,12 @@
+1.<c:import>标签用于包含其他web资源，它与<jsp:include>指令的作用
+类似区别在与
+前者不仅可以包含同一个Web应用中的资源,还可以包含其他Web中的资源‘
+甚至是其他网站的资源
+2.语法格式
+<c:import url="web资源的url">
+1.url-药导入的文件资源的URL路径或地址
+2.context	
+3.var	变量名称可以将 获取的资源存储到该比变量中
+4.scope	变量的作用域
+5.varReader	以Reader类似存储要包含的文件的内如
+6.charEncoding 要导入文件中的资源编码

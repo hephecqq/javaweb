@@ -1,0 +1,8 @@
+1.<c:if>标签能够实现Java语言红的if语句及if-else语句的功能
+语法格式为：
+<c:if test="逻辑表达式" var="代表逻辑表达式的值的命名变量的名字"
+scope="(page|request|session|application)">
+<c:if>标签会把逻辑表达式的值存放在var属性指定的命名变量中,scope属性则指定命名
+变量的范围，scope的默认值是page(页面范围)
+3.<c:if>标签只是类似与单个if语句，如果想实现类似if-else语句的功能
+可以结合<c:choose><c:when>和<c:otherwise>标签使用
